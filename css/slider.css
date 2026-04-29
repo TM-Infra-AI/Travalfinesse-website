@@ -1,0 +1,274 @@
+﻿
+
+
+
+/*Slider*/
+
+.slider-relative {
+
+	position:relative;
+
+	overflow: hidden;
+
+	margin:0 auto;   
+	
+	width:1349px;
+
+}
+
+
+
+
+
+.items {
+
+	display: none;	
+
+	overflow: hidden;
+
+}
+
+
+
+.slider-block {
+
+	position:relative;
+
+	height:690px;
+
+	margin:0px 0px 0px 0px;
+
+	
+
+}
+
+.slider {
+
+	z-index:2;
+
+	overflow: visible !important;
+
+	height: 700px;
+
+
+
+	position: relative;
+
+}
+
+
+
+.sliderButtons{
+
+	float:right;
+
+	margin-right:100px;
+
+}
+
+
+
+/*
+
+.pagination {
+
+bottom: 14px;
+
+position: absolute;
+
+right: 157px;
+
+z-index: 999;
+
+}
+
+
+
+.pagination li {
+
+	float: left;
+
+}
+
+
+
+.pagination li+li {
+
+	margin-left: 4px;
+
+}
+
+
+
+
+
+.pagination  li a{
+
+	width: 15px;
+
+	display: block;
+
+		transition: 0s ease;
+
+	-o-transition: 0s ease;
+
+	-webkit-transition: 0s ease;
+
+	height: 15px;
+
+	background: url(../images/pagination.png) right 0 no-repeat;
+
+}
+
+
+
+.pagination li a:hover, .pagination li.current a {
+
+	background-position: 0 0;
+
+}
+
+*/
+
+
+
+
+
+a.prev, a.next {
+
+	width: 56px;
+
+	background: url(../images/prevnext.png) 0 0 no-repeat;
+
+	height: 112px;
+
+	position: absolute;
+
+	display: block;
+
+	bottom: 70px;
+
+	z-index: 999;
+
+	left: 45px;
+
+
+
+}
+
+
+
+a.next {
+
+	left: 101px;
+
+	width: 57px;
+
+	background-position: right bottom;
+
+
+
+}
+
+
+
+a.next:hover,a.prev:hover  {
+
+	opacity: 0.8;
+
+}
+
+
+
+
+
+
+
+.slider .banner{
+
+	top: 50px;
+
+	left: 0px;
+
+	position: absolute;
+
+	font-family:Lucida Handwriting;
+
+	color: #fff;
+
+	background-repeat:no-repeat;
+
+	background-image:url('../images/TFlogo.jpg');
+
+	height:88px;
+
+	width:350px;
+
+}
+
+
+
+.slider .banner div {
+
+	font-size: 14px;
+
+	font-family:"Century Gothic";
+
+	line-height: 65px;
+
+	color: #263555;
+
+	padding: 4px 19px 6px 19px;
+
+	background: #fff;
+
+	left:0px;
+
+	float:left;
+
+	}
+
+
+
+.slider .banner span {
+
+	height:200px;
+
+	width:800px;
+
+	font-family:"Century Gothic";
+
+	padding: 3px 15px 7px 19px;
+
+	font-size: 16px;
+
+	line-height: 25px;
+
+	background: #38afe5;
+
+
+
+}
+
+
+
+/*.banerText{
+
+	height:400px;
+
+	width:500px;
+
+	float:left;
+
+	margin-bottom:150px
+
+}
+
+*/
+
+
+
+
+
+
+
